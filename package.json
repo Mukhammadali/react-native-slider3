@@ -1,19 +1,20 @@
 {
-  "name": "react-native-slider",
-  "version": "0.11.0",
+  "name": "react-native-slider3",
+  "version": "1.0.2",
   "description": "A pure JavaScript <Slider /> component for react-native",
   "main": "lib/Slider.js",
   "files": [
     "lib",
     "src"
   ],
-  "author": "Jean Regisser <jean.regisser@gmail.com> (https://github.com/jeanregisser)",
+  "author": "Muhammad Ali <toshboev7@gmail.com> (https://github.com/mukhammadali)",
   "keywords": [
     "react-component",
     "react-native",
     "ios",
     "android",
-    "slider"
+    "slider",
+    "react-native-slider"
   ],
   "license": "MIT",
   "scripts": {
@@ -24,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jeanregisser/react-native-slider.git"
+    "url": "git+ssh://git@github.com/mukhammadali/react-native-slider3.git"
   },
   "dependencies": {
     "prop-types": "^15.5.6"
@@ -37,5 +38,9 @@
     "react": "16.0.0-alpha.6",
     "react-native": "0.43.3",
     "rimraf": "^2.5.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/mukhammadali/react-native-slider3/issues"
+  },
+  "homepage": "https://github.com/mukhammadali/react-native-slider3#readme"
 }

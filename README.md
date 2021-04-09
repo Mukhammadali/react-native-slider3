@@ -1,27 +1,27 @@
-## react-native-slider
+## react-native-slider3
 
-[![npm version](http://img.shields.io/npm/v/react-native-slider.svg?style=flat-square)](https://npmjs.org/package/react-native-slider "View this project on npm")
-[![npm downloads](http://img.shields.io/npm/dm/react-native-slider.svg?style=flat-square)](https://npmjs.org/package/react-native-slider "View this project on npm")
-[![npm licence](http://img.shields.io/npm/l/react-native-slider.svg?style=flat-square)](https://npmjs.org/package/react-native-slider "View this project on npm")
-[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20android-989898.svg?style=flat-square)](https://npmjs.org/package/react-native-slider "View this project on npm")
+[![npm version](http://img.shields.io/npm/v/react-native-slider3.svg?style=flat-square)](https://npmjs.org/package/react-native-slider3 "View this project on npm")
+[![npm downloads](http://img.shields.io/npm/dm/react-native-slider3.svg?style=flat-square)](https://npmjs.org/package/react-native-slider3 "View this project on npm")
+[![npm licence](http://img.shields.io/npm/l/react-native-slider3.svg?style=flat-square)](https://npmjs.org/package/react-native-slider3 "View this project on npm")
+[![Platform](https://img.shields.io/badge/platform-ios%20%7C%20android-989898.svg?style=flat-square)](https://npmjs.org/package/react-native-slider3 "View this project on npm")
 
 A pure JavaScript `<Slider>` component for react-native. This is still very much a work
 in progress, ideas and contributions are very welcome.
 
-<img src="https://raw.githubusercontent.com/jeanregisser/react-native-slider/master/Screenshots/basic@2x.png" width="375">
-<img src="https://raw.githubusercontent.com/jeanregisser/react-native-slider/master/Screenshots/basic_android_xxhdpi.png" width="360">
+<img src="https://raw.githubusercontent.com/mukhammadali/react-native-slider3/master/Screenshots/basic@2x.png" width="375">
+<img src="https://raw.githubusercontent.com/mukhammadali/react-native-slider3/master/Screenshots/basic_android_xxhdpi.png" width="360">
 
 It is a drop-in replacement for [Slider](http://facebook.github.io/react-native/docs/slider.html).
 
 ## Install
 
 ```shell
-npm i --save react-native-slider
+npm i --save react-native-slider3
 ```
 
 **Note:** I try to maintain backward compatibility of this component with previous versions of React Native, but due to the nature of the platform, and the existence of breaking changes between releases, it is possible that you need to use a specific version of this component to support the exact version of React Native you are using. See the following table:
 
-| React Native version(s) | Supporting react-native-slider version(s) |
+| React Native version(s) | Supporting react-native-slider3 version(s) |
 |-------------------------|-------------------------------------------|
 | <0.25.0                 | <0.7.0                                    |
 | v0.25.x                 | v0.7.x                                    |
@@ -33,7 +33,7 @@ npm i --save react-native-slider
 
 ```jsx
 import React from "react";
-import Slider from "react-native-slider";
+import Slider from "react-native-slider3";
 import { AppRegistry, StyleSheet, View, Text } from "react-native";
 
 class SliderExample extends React.Component {
